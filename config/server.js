@@ -12,5 +12,5 @@ server.use(allowCors)
 server.listen(port, function () {
     console.log(`BACKEND is running on port ${port}.`)
 })
-
+console.log('nada')
 module.exports = server
